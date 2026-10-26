@@ -1,0 +1,17 @@
+#LINUX
+# Linux Command Arsenal
+
+## Day 1 — File System, Redirection & Remote SSH (Bandit 0–5)
+* `mkdir -p` — Creates parent and child directories at the same time.
+* `touch` — Creates an empty plain-text file (0 bytes).
+* `echo "text" > file` — Redirects text output into a file (overwrites).
+* `ls -la` — Lists all files in long format, exposing hidden dot-files (`.`) and permissions.
+* `cat ./-` — Reads a file starting with a dash by specifying the current directory (`./`).
+* `cat "./--spaces--"` — Reads files with spaces and leading dashes by wrapping the path in quotes.
+* `file ./*` — Inspects the magic bytes of all files in a folder to find human-readable ASCII text.
+* `ssh user@host -p 2220` — Connects to a remote server over an encrypted shell on a custom port.
+
+exit
+
+
+
